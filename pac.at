@@ -7,8 +7,8 @@ title: "Klondike"
 title_zh: "纸牌接龙"
 theme: "dark"
 accent: "indigo"
-front_port: 17600
-back_port: 17601
+front_port: 17846
+back_port: 17847
 window: "1280x800"
 desktop: "true"
 # PLAN-039 T-04：a2r 编译 exe 声明（`auto build -r rust` 产物，相对 App
