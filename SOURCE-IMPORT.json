@@ -1,0 +1,128 @@
+{
+  "repository": "auto-solitaire",
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "repo": "auto-os",
+      "commit": "93c3cb0259c8cfe1644e2b35baff71638be59ec5",
+      "path": "apps/037-klondike",
+      "primary": true,
+      "fileCount": 19,
+      "pacFields": {
+        "name": "klondike",
+        "version": "1.0.0",
+        "scene": "ui",
+        "render": "vue",
+        "icon": "layers",
+        "title": "Klondike",
+        "title_zh": "纸牌接龙",
+        "theme": "dark",
+        "accent": "indigo",
+        "front_port": "17600",
+        "back_port": "17601",
+        "window": "1280x800",
+        "desktop": "true",
+        "desktop_exe": "rust-workspace/target/debug/klondike.exe",
+        "category": "game"
+      },
+      "files": [
+        {
+          "sourcePath": "apps/037-klondike/README.md",
+          "path": "README.md",
+          "sha256": "8180252d11de57f97914bbe588d6cb368fb61ef8af50faad68f4a6379427b9bd"
+        },
+        {
+          "sourcePath": "apps/037-klondike/pac.at",
+          "path": "pac.at",
+          "sha256": "cb024e8e5dc327f8ff8fff7ada78a9ea1c1180f555645d97c876855bdc5a4162"
+        },
+        {
+          "sourcePath": "apps/037-klondike/records.json",
+          "path": "records.json",
+          "sha256": "35c654b23961d9524b0e8c2b34c6badc166439c9c541fd80f7cacd327399f3ab"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/back/api.at",
+          "path": "src/back/api.at",
+          "sha256": "cbe2deac95d1efa0e3f9e369882ead072195a381f89dc6fd94287c43f10e99e6"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/back/api.ts",
+          "path": "src/back/api.ts",
+          "sha256": "ac9958c3591b3219df35dc8aa2021800597ce3c6d42d8c12a0a72bc90cc228b5"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/back/db.at",
+          "path": "src/back/db.at",
+          "sha256": "b56436e5299fad0dd302ec342690d4dafc73d518ba012210bfc074f2926f49f3"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/back/records.at",
+          "path": "src/back/records.at",
+          "sha256": "48458234964018ca04a981ee2786dc3203806c9c72bc84f127b76804faa821b0"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/front/app.at",
+          "path": "src/front/app.at",
+          "sha256": "5e92d609e0406594a5ca150cbe246181b3c7d27979aa1cd4e9166a4a7eeab229"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/front/components/card_face.at",
+          "path": "src/front/components/card_face.at",
+          "sha256": "033ce726b1da1e49d3f3e216779fd2950ebc45c9422f6619e06d4e4b8b26c5e0"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/front/components/card_suit.at",
+          "path": "src/front/components/card_suit.at",
+          "sha256": "0f4177566511967fa22f7d9f57bc0b5e489f21fc9adeaeaa01f37284de3b2d0f"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/front/components/court_badge.at",
+          "path": "src/front/components/court_badge.at",
+          "sha256": "c43b47372414c665d38c9186160380b5cd809c16407a0ad9657afb2f6692d370"
+        },
+        {
+          "sourcePath": "apps/037-klondike/src/front/klondike_store.at",
+          "path": "src/front/klondike_store.at",
+          "sha256": "d42d1d8bed67fc7ffe06d76355957e29ef0e3147f5cc8534488f02ff69226f6a"
+        },
+        {
+          "sourcePath": "apps/037-klondike/tests/desktop_mcp.py",
+          "path": "tests/desktop_mcp.py",
+          "sha256": "5a8e00eff03725b6e3f73c328b2201908b2bcecb2e8dad3035a2f62c840fd16b"
+        },
+        {
+          "sourcePath": "apps/037-klondike/tests/restart_vm.py",
+          "path": "tests/restart_vm.py",
+          "sha256": "b4bcc0578216e3f54a2dd2e1db9374ebce6d15ee8df09e4dc787c1e2fe4ad9df"
+        },
+        {
+          "sourcePath": "apps/037-klondike/tests/rules_golden.cjs",
+          "path": "tests/rules_golden.cjs",
+          "sha256": "78b059e846e5103b64571196bc7388e729c1a4d03da7f96a85d40849baa1b147"
+        },
+        {
+          "sourcePath": "apps/037-klondike/tests/rust_golden.py",
+          "path": "tests/rust_golden.py",
+          "sha256": "9ba161cb146c0f7d403f465a2b221bb09d757412bf0756b2eb81ab9706ddbc85"
+        },
+        {
+          "sourcePath": "apps/037-klondike/tests/test_klondike.cjs",
+          "path": "tests/test_klondike.cjs",
+          "sha256": "782a23720f0c024b1f524f208ed03bcc8602eb8eea2422510f89c9412a899c0e"
+        },
+        {
+          "sourcePath": "apps/037-klondike/tests/test_klondike_moves.cjs",
+          "path": "tests/test_klondike_moves.cjs",
+          "sha256": "748d78b68a9f07ddfc055a411108df5f2886156923744835589aee6fa635b1a0"
+        },
+        {
+          "sourcePath": "apps/037-klondike/tests/test_vm_klondike.py",
+          "path": "tests/test_vm_klondike.py",
+          "sha256": "cd6f1db3e7e414726376f6b8ec5baae104f13ce2ed1e27908d34e517fd72d573"
+        }
+      ]
+    }
+  ],
+  "note": "Exact committed source snapshots; packaging changes follow in a separate commit. References are not additional installed apps."
+}
